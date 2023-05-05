@@ -6,3 +6,10 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
+
+//import this file into index.js
+
+// generate readme in another folder
+
+// make sue you 're in the project folder not the app folder

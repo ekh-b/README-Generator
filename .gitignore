@@ -7,9 +7,13 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
-#Stop directory tracking ( node excluded in line 46)
+#Stop directory tracking (node excluded in line 50)
 
-.DS_Store
+# * = if the file ext ends in DS_Store- will be ignored in GH
+# Why is this needed: for security and size of file 
+#For future reference: when using API keys, have them in separate file and add that file name to .gitignore file.
+
+*.DS_Store
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
