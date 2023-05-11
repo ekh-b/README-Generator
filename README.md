@@ -19,7 +19,7 @@ Click on the link below to see a demonstration of the application:
 ## Installation
 
 Following installations are required in order to generate a README.md file: 
-
+-Brew insall
 - Install node 
 - Install filing system node module
 - Install inquirer

@@ -6,37 +6,45 @@
 // make sue you 're in the project folder not the app folder
 
 
-# <Your-Project-Title>
 
-## Description
-
-
-
-
-## Table of Contents (Optional)
-
-
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-
-## Installation
-
-
-
-## Usage
-
-## Credits
-
-## License
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# 
+  
+  # Title
+  ${data.Title}
 
+  ## Description
+
+  ${data.Description}
+  
+     
+  ## Installation
+  
+  ${data.Intallation}
+  
+  ## Usage
+  
+  ${data.Useage}
+
+  ## License
+  
+  ${data.License}
+
+
+## Contributions
+
+${data.Contributors}
+
+  ## Tests
+  ${data.Tests}
+
+
+
+  ##Questions
+  ${data.GitHub}
+  ${data.Email}
 `;
 }
 

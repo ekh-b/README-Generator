@@ -2,7 +2,7 @@
 //Installation is require for users to use this readme generator:
 //Import and use the native fs module to read and write to the file system
 //Install 3rd party module inquirer using npm(node package manager)- used to build command ine apps
-//
+//use templaate literls to pass the values
 
 //install inquirer Each project you'll need to run npm init -y and then npm install --save inquirer@^8.0.0
 // app/ filename.md- creates the file in that apps folder
@@ -32,54 +32,68 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 const questions = [
     {
-        type: 'Input',
+        type: 'input',
         message: 'Please enter the title of your project',
-        name: 'Project title',
+        name: 'Title',
     },
 
     {
-        type: 'Input',
+        type: 'input',
         message: 'Please provide a description of your project',
         name: 'Description',
     },
 
     {
-        type: 'Input',
+        type: 'input',
         message: 'What are the steps required to install your project?',
-        name: 'installation',
+        name: 'Installation',
     },
 
     {
-        type: 'Input',
+        type: 'input',
         message: 'What is the purpose of your application?',//Provide instructions and examples for use. Include screenshots as needed.
         name: 'Useage',
     },
 
 
     {
-        type: 'Input/Select',
-        message: 'Please enter/select the license you require',//need to give optitions- list them?
+        type: 'list',
+        message: 'Please enter/select the license you require',
         name: 'License',
+        choices:[
+
+        'MIT',
+        ''
+
+
+
+        ]
     },
 
 
     {
-        type: 'Input',
-        message: 'please provide details of any contributors',
+        type: 'input',
+        message: 'Please provide details of any contributors',
         name: 'Contributors',// not sure what this refers too
     },
 
 
     {
-        type: 'Input',
+        type: 'input',
         message: 'What testing is required for this application?',
         name: 'Tests',
     },
 
     {
-        type: 'test',
-        message: 'test',
-        name: 'Questions',//not sure what message this needs to say
+        type: 'input',
+       message: 'What is your GitHub Username?',
+        name: 'GitHub',
+    },
+
+    {
+        type: 'input',
+       message: 'What is your email address?',
+        name: 'Email',
     },
 
 
@@ -95,7 +109,12 @@ const questions = [
 
 ];
 
+// ACTION- prompts user with questions from array above
 
+//const userPrompt = aysnc (questions) => {
+
+
+//}
 
 
 // function to write README file
@@ -107,14 +126,14 @@ function writeToFile(fileName, data) {
     
 }
 
-// function to initialize program
-function init() {
+// function to initialise program
+function init() {//call on the user prompt
 
 }
 
-// function call to initialize program
+// function calls intialisation 
 init();
 
 
-//not sure if I needed to generate the packagejson file or to copy it from the starter code?
 
+//node index.js
