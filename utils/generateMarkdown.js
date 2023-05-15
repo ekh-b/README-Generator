@@ -41,13 +41,16 @@ ${data.Contributors}
   ${data.Tests}
 
 
-
   ##Questions
-  ${data.GitHub}
-  ${data.Email}
+
+  If you'd like to see more of my work, please visit https://github.com/${data.GitHub}
+
+  
+  If you have any questions please contact:${data.Email}
 `;
 }
 
+//Module exports is used to store variables or methods?
 module.exports = generateMarkdown;
 
-
+//<!--https://github.com/ekh-b-->
