@@ -115,11 +115,13 @@ inquirer.prompt(questions)
 .then (function(data){
 
 //fs.- line 99 not needed, maybe only used when creating within the file system?
- writeToFile("test.md",generateMarkdown(data) );
+ writeToFile("./GeneratedFile/test.md",generateMarkdown(data) );
 
 
 })
-
+///Users/eleashabains/Desktop/Birmingham Bootcamp/Repo/A11/README-Generator/GeneratedFile
+///Users/eleashabains/Desktop/Birmingham Bootcamp/Repo/A11/README-Generator/index.js
+///Users/eleashabains/Desktop/Birmingham Bootcamp/Repo/A11/README-Generator/utils
 
 }
 
