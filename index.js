@@ -114,7 +114,8 @@ function init () {
 inquirer.prompt(questions)
 .then (function(data){
 
-fs.writeToFile("test.md",generateMarkdown(data) );
+//fs.- line 99 not needed, maybe only used when creating within the file system?
+ writeToFile("test.md",generateMarkdown(data) );
 
 
 })
