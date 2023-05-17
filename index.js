@@ -1,4 +1,16 @@
 
+//TO DO
+
+
+// - Tidy up code
+//- make readme more stylised
+//Update the actual rreadme for this assignment
+// record video and add link
+//read ruberic again and check all requirements have been met
+//Get qs anwered re fs.- usage
+
+
+
 // //Installation is require for users to use this readme generator:
 // //Import and use the native fs module to read and write to the file system
 // //Install 3rd party module inquirer using npm(node package manager)- used to build command ine apps
@@ -18,6 +30,7 @@ const fs = require("fs");
 const path = require('path');//requires the path module? 
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");// Will generate the READEME.md file in that folder
+const { connected } = require("process");
 
 
 // //Does table of contents need a section?
@@ -61,7 +74,8 @@ const questions = [
         choices:[
 
         'Apache License 2.0',
-        'MIT'
+        'MIT',
+        'GNU',
 
         ]
     },
@@ -100,7 +114,7 @@ function writeToFile(fileName, data) { // do I need to change fileName data to w
 
 fs.writeFile(fileName, data ,function (err){  // Have to have all 3 elements in order to use write file function ( function, err and sucess?)
     
-    if (err) console.log (err);
+    if (err) console.log ("error");
 
     console.log ("Sucessful")
 });
@@ -115,7 +129,7 @@ inquirer.prompt(questions)
 .then (function(data){
 
 //fs.- line 99 not needed, maybe only used when creating within the file system?
- writeToFile("./GeneratedFile/test.md",generateMarkdown(data) );
+ writeToFile("./GeneratedFile/README.md",generateMarkdown(data) );
 
 
 })
@@ -124,8 +138,6 @@ inquirer.prompt(questions)
 ///Users/eleashabains/Desktop/Birmingham Bootcamp/Repo/A11/README-Generator/utils
 
 }
-
-
 
 
 

@@ -12,41 +12,58 @@
 function generateMarkdown(data) {
   return `# 
   
-  # Title
-  ${data.Title}
+  # ${data.Title}
 
   ## Description
 
   ${data.Description}
+
+ 
+  ## Table of Contents 
+
+[Installation](#installation)
+
+[Usage](#usage)
+
+[Credits](#credits)
+
+[License](#license)
   
      
-  ## Installation
+
+## Installation
   
   ${data.Intallation}
   
-  ## Usage
+
+## Usage
   
   ${data.Useage}
 
-  ## License
+
+## License
   
-  ${data.License}
+This application is covered under the ${data.License} license.
+
 
 
 ## Contributions
+  
+  ${data.Contributors}
 
-${data.Contributors}
-
-  ## Tests
+ 
+## Tests
+  
   ${data.Tests}
 
 
-  ##Questions
 
-  If you'd like to see more of my work, please visit https://github.com/${data.GitHub}
+## Questions
+
+If you'd like to see more of my work, please visit https://github.com/${data.GitHub}
 
   
-  If you have any questions please contact:${data.Email}
+If you have any questions please contact: ${data.Email}
 `;
 }
 
