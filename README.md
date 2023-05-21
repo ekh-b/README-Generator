@@ -31,7 +31,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
     ```md
     ![alt text](assets/images/screenshot.png)
-    ```
+    ```1
+
+    ![Screenshot]/Users/eleashabains/Desktop/Birmingham Bootcamp/Repo/A11/README-Generator/assets/EB Readme Demo.mov
 
 ## Credits/Resources used
 

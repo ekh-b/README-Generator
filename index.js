@@ -29,25 +29,25 @@ const { connected } = require("process");
 const questions = [
     {
         type: 'input',
-        message: 'Please enter the title of your project',
+        message: 'Please enter the title of your application',
         name: 'Title',
     },
 
     {
         type: 'input',
-        message: 'Please provide a description of your project',
+        message: 'Please provide a description of your application',
         name: 'Description',
     },
 
     {
         type: 'input',
-        message: 'What are the steps required to install your project?',
+        message: 'What are the steps required to install your application?',
         name: 'Installation',
     },
 
     {
         type: 'input',
-        message: 'What is the purpose of your application?',//Provide instructions and examples for use. Include screenshots as needed.
+        message: 'How should your application be used?',//Provide instructions and examples for use. Include screenshots as needed.
         name: 'Useage',
     },
 

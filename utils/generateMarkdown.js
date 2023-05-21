@@ -29,9 +29,14 @@ function generateMarkdown(data) {
 
 [Usage](#usage)
 
-[Credits](#credits)
-
 [License](#license)
+
+[Contributing](#contributing)
+
+[Tests](#tests)
+
+[Questions](#questions)
+
   
      
 
@@ -51,7 +56,7 @@ This application is covered under the ${data.License} license.
 
 
 
-## Contributions
+## Contributing
   
   ${data.Contributors}
 
@@ -64,7 +69,7 @@ This application is covered under the ${data.License} license.
 
 ### Questions
 
-If you'd like to see more of my work, please visit https://github.com/${data.GitHub}
+If you'd like to see more of my work, please visit: https://github.com/${data.GitHub}
 
   
 If you have any questions please contact: ${data.Email}
