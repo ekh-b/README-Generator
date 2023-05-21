@@ -10,7 +10,7 @@ This is a command-line application that dynamically generates a professional REA
 
 Click on the link below to see a demonstration of the application:
 
-
+https://github.com/ekh-b/README-Generator/raw/main/assets/EB%20Readme%20Demo.mov
 
 
 ## Installation
