@@ -1,25 +1,9 @@
 
 //TO DO
 
+// See line 63 for future improvements
+// Still need to deepen knowledge on the dependencies and how they work- have left my questions in to prompt me when studying
 
-// - Tidy up code
-//- make readme more stylised
-//Update the actual rreadme for this assignment
-// record video and add link
-//read ruberic again and check all requirements have been met
-//Get qs anwered re fs.- usage
-
-
-
-// //Installation is require for users to use this readme generator:
-// //Import and use the native fs module to read and write to the file system
-// //Install 3rd party module inquirer using npm(node package manager)- used to build command ine apps
-// //use templaate literls to pass the values
-
-// //install inquirer Each project you'll need to run npm init -y and then npm install --save inquirer@^8.0.0
-// // app/ filename.md- creates the file in that apps folder
-// // modules functions
-//node index.js - cammand to run to run 
 
 
 

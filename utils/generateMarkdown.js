@@ -6,13 +6,16 @@
 // make sue you 're in the project folder not the app folder
 
 
-// function to generate markdown for README
+// FUNCTION TO GENERATE MARKDOWN FOR README.md FILE:
+
 function generateMarkdown(data) {
   return `# 
   
+
 # ${data.Title}
 
-![LICENSE](https://img.shields.io/badge/LICENSE-${data.License}-green)
+
+![LICENSE](https://img.shields.io/badge/LICENSE-${data.License}-B6A8EF)
 
 
 ## Description
@@ -59,7 +62,7 @@ This application is covered under the ${data.License} license.
 
 
 
-## Questions
+### Questions
 
 If you'd like to see more of my work, please visit https://github.com/${data.GitHub}
 
@@ -68,7 +71,7 @@ If you have any questions please contact: ${data.Email}
 `;
 }
 
-//Module exports is used to store variables or methods?
+//Module exports- tell Node.js what to export from a given file, so that other files are allowed to access the exported code
+
 module.exports = generateMarkdown;
 
-//<!--https://github.com/ekh-b-->
