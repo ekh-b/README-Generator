@@ -73,19 +73,19 @@ const questions = [
         name: 'License',
         choices:[
 
-        'Apache License 2.0',
-        'GNU General Public License v3.0',
-        'MIT License',
-        'BSD 2-Clause "Simplified" License',
-        'BSD 3-Clause "Simplified" License',
-        'Boost Software License 1.0',
-        'Creative Commons Zero v1.0 Universal',
-        'Eclipse Public License 2.0',
-        'GNU Affero General Public License v3.0',
-        'GNU General Public License v2.0',
-        'GNU Lesser General Public License v2.1',
-        'Mozilla Public License 2.0',
-        'The Unlicense',
+        'Apache', //License 2.0,
+        'GNU', //General Public License v3.0',         //Right now can only generate these licenses as badges, as the license names don't have spaces
+        'MIT',                                          //URLs can't have spaces, due to URL encoding- converts characters into formats that can be transmitted over the internet
+        'BSD', //2-Clause "Simplified" License',        // Spaces will be replaced with '%20'
+        //'BSD 3-Clause "Simplified" License',
+        //'Boost Software License 1.0',                 //FUTURE DEVELOPMENT 
+        //'Creative Commons Zero v1.0 Universal',       // Due to time constraints have opted for user to select one word badges
+        // 'Eclipse Public License 2.0',                //To allow for a wider option of licesences to be selcted need to create a conditional statement which checks the choice and returns the URL with spaces encoded
+        // 'GNU Affero General Public License v3.0',
+        // 'GNU General Public License v2.0',
+        // 'GNU Lesser General Public License v2.1',
+        // 'Mozilla Public License 2.0',
+        // 'The Unlicense',
      ]
     },
 

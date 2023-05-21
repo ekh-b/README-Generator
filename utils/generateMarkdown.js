@@ -6,40 +6,13 @@
 // make sue you 're in the project folder not the app folder
 
 
-
-
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# 
   
 # ${data.Title}
 
-// <License badge, need to make it show up >
-![Badge]https://img.shields.io/badge/${data.license}
-
-// https://img.shields.io/badge/dynamic/json?url=<URL>&label=<LABEL>&query=<${data.license}>&color=<COLOR>&prefix=<PREFIX>&suffix=<SUFFIX>
-// // ${data.license}
-
-
-![license](https://img.shields.io/badge/license${data.License})
-![license](https://img.shields.io/github/license/${data.License}.svg)
-
-[!License](https://img.shields.io/badge/License/${data.license})
-
--Apache%202.0-blue.svg)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
-
-![license](https://img.shields.io/badge/license-${data.License}-yellow)
-
-![license](https://img.shields.io/badge/license-${data.License}-red)
-
-seem to only generate when dat.license is lower case?? but not 100% wokring
-
-
--> maybe make the options given to the user shorter and do else if- optionsd with licneses?
+![LICENSE](https://img.shields.io/badge/LICENSE-${data.License}-green)
 
 
 ## Description

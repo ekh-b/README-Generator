@@ -54,3 +54,4 @@ https://gist.github.com/qvil/5e3ed56c26d784e51424621119cc4028
 [MIT](https://choosealicense.com/licenses/mit/)
 https://img.shields.io/github/license/<ekh-b>/<README>
 
+![LICENSE](https://img.shields.io/badge/LICENSE-MIT%20License-green)
