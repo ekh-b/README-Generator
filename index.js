@@ -74,10 +74,19 @@ const questions = [
         choices:[
 
         'Apache License 2.0',
-        'MIT',
-        'GNU',
-
-        ]
+        'GNU General Public License v3.0',
+        'MIT License',
+        'BSD 2-Clause "Simplified" License',
+        'BSD 3-Clause "Simplified" License',
+        'Boost Software License 1.0',
+        'Creative Commons Zero v1.0 Universal',
+        'Eclipse Public License 2.0',
+        'GNU Affero General Public License v3.0',
+        'GNU General Public License v2.0',
+        'GNU Lesser General Public License v2.1',
+        'Mozilla Public License 2.0',
+        'The Unlicense',
+     ]
     },
 
     {
@@ -102,8 +111,6 @@ const questions = [
         name: 'Email',
     },
 
-
-
    
 ];
 
@@ -116,7 +123,7 @@ fs.writeFile(fileName, data ,function (err){  // Have to have all 3 elements in 
     
     if (err) console.log ("error");
 
-    console.log ("Sucessful")
+    console.log ("README.md file has been created- to view it, visit the 'GeneratedFile' folder")
 });
 
 }

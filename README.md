@@ -36,10 +36,21 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
+https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+
+
+https://shields.io
+
+https://dev.to/cicirello/badges-tldr-for-your-repositorys-readme-3oo3
+
+https://www.markdownguide.org/basic-syntax/#images-1
+https://gist.github.com/qvil/5e3ed56c26d784e51424621119cc4028
+
+
 
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
+https://img.shields.io/github/license/<ekh-b>/<README>
 
