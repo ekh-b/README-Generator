@@ -29,11 +29,7 @@ Following installations are required in order to use this application:
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```1
-
-    ![Screenshot]/Users/eleashabains/Desktop/Birmingham Bootcamp/Repo/A11/README-Generator/assets/EB Readme Demo.mov
+https://github.com/ekh-b/README-Generator/assets/ReadmeDemo.mp4
 
 ## Credits/Resources used
 
