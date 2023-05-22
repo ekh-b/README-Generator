@@ -10,7 +10,9 @@ This is a command-line application that dynamically generates a professional REA
 
 Click on the link below to see a demonstration of the application:
 
-https://github.com/ekh-b/README-Generator/assets/110111186/288a4a23-0b2b-45a8-8133-2edda08be64f
+
+https://drive.google.com/file/d/1e8ZRCAbWsw7bRr9sMahUmeUfc2hZ0AFs/view?usp=share_link
+
 
 ## Installation
 
@@ -25,10 +27,17 @@ Following installations are required in order to use this application:
 
 - To run this application enter the following command in terminal ***node index.js*** and answer the questions when prompted.
 
+- Once the application has run, the README file can be found in the 'Generated Files' folder:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![image](./assets/Generated.png)
 
-https://github.com/ekh-b/README-Generator/assets/ReadmeDemo.mp4
+
+- The Sample README file from the demonstation can be viewd in the assets folder:
+
+![image](./assets/Sample.png)
+
+
+
 
 ## Credits/Resources used
 
