@@ -27,12 +27,12 @@ Following installations are required in order to use this application:
 
 - To run this application enter the following command in terminal ***node index.js*** and answer the questions when prompted.
 
-- Once the application has run, the README file can be found in the 'Generated Files' folder:
+- After the questions have been answered, the README file can be found in the 'Generated Files' folder:
 
 ![image](./assets/Generated.png)
 
 
-- The Sample README file from the demonstation can be viewd in the assets folder:
+- The Sample README file from the demonstation can be viewed in the assets folder:
 
 ![image](./assets/Sample.png)
 
